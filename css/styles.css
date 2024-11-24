@@ -907,7 +907,7 @@ a, span {
 
 .check-svg {
     display: inline-flex;
-    fill: #F4F4FD;
+    /* fill: #F4F4FD; */
 }
 
 .check-input:checked + .check-text span {
