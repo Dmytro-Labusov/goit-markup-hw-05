@@ -947,7 +947,7 @@ a, span {
 }
 
 .check-input:checked + .check-text .check-svg {
-    background-color: rgb(64, 75, 191);
+    background-color: #404bbf;;
     border: none;
     fill:  #F4F4FD;
     opacity: 1;
@@ -957,7 +957,7 @@ a, span {
     background-color: #404BBF;
 }
 .label-text {
-    /* font-size: 13px; */
+    font-size: 12px;
     margin-top: 16px;
     color: rgba(117, 117, 117, 1);
 
