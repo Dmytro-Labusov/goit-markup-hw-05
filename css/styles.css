@@ -804,6 +804,7 @@ a, span {
     width: 360px;
     height: 40px;
     padding-left: 38px;
+    /* display: flex; */
 }
 
 
@@ -871,7 +872,7 @@ a, span {
 }
 .label-content {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .visually-hidden {
@@ -885,10 +886,6 @@ a, span {
     border: 0;
 }
 
-.label-content {
-    display: flex;
-    align-items: center;
-}
 
 .custom-checkbox {
     width: 16px;
