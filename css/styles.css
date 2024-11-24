@@ -813,6 +813,10 @@ a, span {
     margin-bottom: 16px;    
 }
 
+.form-field-privacy {
+    margin-bottom: 24px;
+}
+
 .form-label {
     color: #8e8f99;
     font-size: 12px;
