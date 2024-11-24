@@ -630,13 +630,14 @@ a, span {
     font-weight: 500;
     width: 75px;
     height: 24px;
+    margin-bottom: 16px;
 }
 .subscribe-form {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
-    /* display:flex; */
+    display:flex; 
     align-items: center;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     border: none;
     background-color: transparent;
     gap: 24px;
@@ -687,9 +688,9 @@ a, span {
     justify-content: center;
     gap: 16px;
     padding: 8px 24px;
-    position: relative;
+    /* position: relative;
     left: 295px;
-    bottom: 40px;
+    bottom: 40px; */
     border: none;
     cursor: pointer;
 }
@@ -916,7 +917,6 @@ a, span {
 }
 
 .check-input:checked + .check-text .check-svg {
-    /* display: block; */
     background-color: rgb(64, 75, 191);
     border: none;
     fill:  #F4F4FD;
@@ -956,7 +956,7 @@ a, span {
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-   min-width: 169px;
+    min-width: 169px;
     height: 56px;
     margin-top: 24px;
     margin-left: 95px;
