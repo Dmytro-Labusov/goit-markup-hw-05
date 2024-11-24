@@ -892,7 +892,7 @@ a, span {
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4); 
     border-radius: 2px;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     fill: transparent;
@@ -902,17 +902,27 @@ a, span {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-svg {
-    display: inline-flex;
-    /* fill: #F4F4FD; */
+.check-input:checked + .check-text .custom-checkbox {
+    background-color: #4D5AE5;
+    border: none;
+    fill: #F4F4FD;
 }
 
-.check-input:checked + .check-text span {
+
+.check-svg {
+    display: inline-flex;
+    fill: #F4F4FD;
+    opacity: 0;
+}
+
+.check-input:checked + .check-text .check-svg {
     /* display: block; */
     background-color: rgb(64, 75, 191);
     border: none;
-    fill:  #F4F4FD;;
+    fill:  #F4F4FD;
+    opacity: 1;
 }
+
 .check-input:focus {
     background-color: #404BBF;
 }
