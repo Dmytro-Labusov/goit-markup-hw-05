@@ -799,7 +799,7 @@ a, span {
 }
 
 .form-field {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .form-field input {
@@ -809,6 +809,9 @@ a, span {
     /* display: flex; */
 }
 
+.form-field-comment {
+    margin-bottom: 16px;    
+}
 
 .form-label {
     color: #8e8f99;
