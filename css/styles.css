@@ -637,7 +637,6 @@ a, span {
     border-radius: 4px;
     display:flex; 
     align-items: center;
-    /* margin-top: 15px; */
     border: none;
     background-color: transparent;
     gap: 24px;
@@ -689,9 +688,6 @@ a, span {
     justify-content: center;
     gap: 16px;
     padding: 8px 24px;
-    /* position: relative;
-    left: 295px;
-    bottom: 40px; */
     border: none;
     cursor: pointer;
 }
@@ -768,7 +764,6 @@ a, span {
 }
 
 .modal-close-icon {
-    /* position: relative; */
     width: 8px;
     height: 8px;
     bottom: 1px;
@@ -776,7 +771,6 @@ a, span {
 }
 
 .modal-text {
-    /* position: absolute; */
     width: 360px;
     height: 24px;
     left: 24px;
@@ -789,13 +783,6 @@ a, span {
 
 .modal-form {
     position: relative;
-    /* top: 112px; */
-    /* left: 24px; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 8; */
 }
 
 .form-field {
@@ -806,7 +793,6 @@ a, span {
     width: 360px;
     height: 40px;
     padding-left: 38px;
-    /* display: flex; */
 }
 
 .form-field-comment {
@@ -913,18 +899,6 @@ a, span {
 
 
 .custom-checkbox {
-    /* width: 16px;
-    height: 16px;
-    border: 1px solid rgba(46, 47, 66, 0.4); 
-    border-radius: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: transparent;
-    margin-right: 8px;
-    cursor: pointer;
-    margin-top: 16px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .check-input:checked + .check-text .custom-checkbox {
@@ -995,5 +969,4 @@ a, span {
 
 .send-button:hover {
     background-color: rgba(64, 75, 191, 1);
-
 }
