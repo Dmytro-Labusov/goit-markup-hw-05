@@ -895,7 +895,7 @@ a, span {
 }
 
 .check-input:checked + .check-text .label-content {
-    background-color: #4D5AE5;
+    background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
